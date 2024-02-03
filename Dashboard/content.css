@@ -1,0 +1,144 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Public+Sans:wght@200;400;500;600;700;800;900&display=swap');
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    
+    .side-bar .side-nav, .navbar{
+        background-color: #5A0201 !important;
+        font-weight: 10%;
+    }
+    
+    .content-wrapper {
+        background-color: #5A0201;
+        height: 290px;
+        border-radius: 1.5rem ;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+    }
+
+    .wrapper{
+        overflow: hidden;
+    }
+
+    .dateDisplay {
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-size: 400;
+
+    }
+
+
+    .content-wrapper h1,p  {
+        color: #ffffff;
+    }
+
+    .mt-4 .button-submit {
+        width: 349px !important;
+        height: 3rem;
+        border-radius: 1rem;
+        color:  #5A0201;
+        background-color: #ffffff;
+        font-family:'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .carousel {
+        top: 30%;
+    }
+    .carousel-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+    }
+    
+    .carousel-item img {
+       height: auto;
+        width: 800px;
+        border-radius: 20px;
+    
+    }
+
+    h5{
+        font-size: 40px;
+        font-weight: 100px;
+        text-shadow: 0 0 8px #FF0000;
+        color: #ffffff;
+    }
+    
+    h6{
+        font-size: 30px;
+        text-shadow:1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
+        color: #ffffff;
+    }
+
+
+    @media screen and (min-width: 375px) and (max-width: 425px) {
+
+        .sidebar {
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            background-color: #1d1919;
+            overflow-y: auto;
+            overflow: hidden;
+        }
+        .navbar {
+            margin-bottom: 0;
+        }
+
+        .content-wrapper {
+        width: 100%;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        }
+
+        .content {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .mt-4 .button-submit {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        }
+    }
+
+
+    @media screen and (min-width: 320px) and (max-width: 374px) {
+
+        .navbar {
+            margin-bottom: 0;
+        }
+
+        .content-wrapper {
+        height: 300px !important;
+        width: 100%;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        }
+
+        .content {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .mt-4 .button-submit {
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px !important;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem !important;
+        
+    
+        }
+    }
+
